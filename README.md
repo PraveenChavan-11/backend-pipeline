@@ -1,6 +1,6 @@
 Backend Pipeline Project
 
-A full-stack backend pipeline with a mock Flask API, FastAPI ingestion service, and PostgreSQL database, designed for handling customer data ingestion, pagination, and query.
+A full-stack backend pipeline with a mock Flask API, FastAPI ingestion service, and PostgreSQL database, designed for handling customer data ingestion, pagination, and queries.
 
 Table of Contents
 
@@ -24,11 +24,11 @@ Project Overview
 
 This project simulates a customer data ingestion pipeline:
 
-Mock Server: A Flask-based service that provides dummy customer data.
+Mock Server: Flask-based service that provides dummy customer data.
 
 Pipeline Service: FastAPI service that ingests customers into PostgreSQL and exposes API endpoints.
 
-Database: PostgreSQL used to store and query customer records.
+Database: PostgreSQL to store and query customer records.
 
 Features:
 
@@ -38,7 +38,7 @@ Customer details by ID
 
 Health and ingestion endpoints
 
-Dockerized services for environment parity
+Dockerized services for environment consistency
 
 Architecture
 [Mock Server (Flask)]
@@ -111,7 +111,7 @@ Health check for mock server
 Pipeline Service (FastAPI) – Port 8000
 
 POST /api/ingest
-Ingests customers from the mock server into PostgreSQL
+Ingest customers from the mock server into PostgreSQL
 
 GET /api/customers?page=<int>&limit=<int>
 Retrieve paginated customer list from database
@@ -164,4 +164,5 @@ Author
 Praveen Chavan
 Full Stack Developer | Technical Team Lead
 📧 praveenchavan1104@gmail.com
+
 📱 +91 9373668855
