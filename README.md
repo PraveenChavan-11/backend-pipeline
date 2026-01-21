@@ -72,7 +72,7 @@ Docker & Docker Compose
 
 Getting Started
 1. Clone the Repository
-git clone https://github.com/<your-username>/backend-pipeline.git
+git clone https://github.com/PraveenChavan-11/backend-pipeline.git
 cd backend-pipeline
 
 2. Run Services using Docker
